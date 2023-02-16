@@ -1,14 +1,18 @@
 import '@/styles/globals.css'
-import { Pacifico } from '@next/font/google';
+import { Varela_Round, Pacifico } from '@next/font/google';
 
-const pacifico = Pacifico({ 
+const varelaRound = Varela_Round({ 
+  weight: '400',
+  subsets: ['latin'],
+})
+export const pacifico = Pacifico({ 
   weight: '400',
   subsets: ['latin'],
 })
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={pacifico.className}>
+    <main className={varelaRound.className}>
       <Component {...pageProps} />
     </main>
   )
