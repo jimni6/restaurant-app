@@ -3,8 +3,21 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center; */
-  padding: 6rem;
+  /* padding: 6rem; */
   min-height: 100vh;
+}
+
+.imageMain {
+  margin: auto;
+  margin-bottom: 1rem;
+  max-width: 2000px;
+  text-align: center;
+}
+
+.imageFormat {
+  width: auto;
+  height: auto;
+  border-radius: 30px;
 }
 
 .description {
@@ -47,11 +60,11 @@
 }
 
 .card {
-  /* padding: 1rem 1.2rem;
+  padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms; */
+  transition: background 200ms, border 200ms;
 }
 
 .card span {

@@ -1,11 +1,23 @@
 import Layout from '../components/layout';
+import Article from '../components/article';
 import styles from '@/styles/Home.module.css'
+import Image from 'next/image';
+import imageMain from '../public/vitrine.jpg'
 
 
 export default function Home() {
   return (
     <>
       <Layout>
+        <div className={styles.imageMain}>
+          <Image
+            className={styles.imageFormat}
+            src={imageMain}
+            alt='Vitrine du Little Cocotte'
+          />
+        </div>
+        <Article />
+        <Article />
         <main className={styles.main}>
           <div className={styles.grid}>
             <a

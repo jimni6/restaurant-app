@@ -1,0 +1,33 @@
+.container {
+    max-width: 1920px;
+    margin: auto;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: min-content;
+}
+
+.image {
+    height: 50rem;
+    width: auto;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    border-radius: 30px;
+}
+
+.text {
+    padding: 0.5rem;
+    margin-top: 2rem;
+    background: linear-gradient(#DE4A23, #DB2D20);
+    /* background-color: #DE4A23; */
+    border-radius: 30px;
+    border: 0.3rem solid #050505;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: #e4d5d5;
+    grid-column: 3 / 4;
+    grid-row: 1;
+    box-shadow: 0 0 2em #050505;
+}
